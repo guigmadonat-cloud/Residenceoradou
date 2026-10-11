@@ -54,7 +54,7 @@ GUIDE.ko = {
       { k: "p", t: "숙소 주소와 출입 안내는 Airbnb 메시지로 보내 드려요. 안내받은 주소로 가셔서 전달받은 코드를 입력해 주세요." },
       { k: "route", dest: "6-8 rue de Lutèce, 95100 Argenteuil", label: "숙소" },
       { k: "route", dest: "27 route de Pontoise, 95100 Argenteuil", label: "열쇠 보관함과 주차장" },
-      { k: "video", url: "https://canva.link/fe1tzseey39wb4p", label: "환영 영상: 단계별 안내" },
+      { k: "video", url: "https://lesresidencesoradou.my.canva.site/video-pasapas", label: "환영 영상: 단계별 안내" },
       { k: "codes" },
       { k: "h", t: "떠나기 전에" },
       { k: "list", items: ["불을 꺼 주세요", "쓰레기봉투를 묶어 주세요", "설거지를 해 주세요", "수건은 바닥에 두세요", "창문과 문을 닫아 주세요", "열쇠는 열쇠 보관함에 넣어 주세요"] },

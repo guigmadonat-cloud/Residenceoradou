@@ -54,7 +54,7 @@ GUIDE.hi = {
       { k: "p", t: "आवास का पता और प्रवेश के निर्देश आपके Airbnb संदेश में भेजे जाते हैं। बताए गए पते पर जाएँ और आपको दिया गया कोड दर्ज करें।" },
       { k: "route", dest: "6-8 rue de Lutèce, 95100 Argenteuil", label: "अपार्टमेंट" },
       { k: "route", dest: "27 route de Pontoise, 95100 Argenteuil", label: "चाबी का डिब्बा और पार्किंग" },
-      { k: "video", url: "https://canva.link/fe1tzseey39wb4p", label: "स्वागत वीडियो: कदम-दर-कदम मार्गदर्शन" },
+      { k: "video", url: "https://lesresidencesoradou.my.canva.site/video-pasapas", label: "स्वागत वीडियो: कदम-दर-कदम मार्गदर्शन" },
       { k: "codes" },
       { k: "h", t: "जाने से पहले" },
       { k: "list", items: ["बत्तियाँ बंद करें", "कचरे के थैले बाँध दें", "अपने बर्तन धो लें", "तौलिये फ़र्श पर छोड़ दें", "खिड़कियाँ और दरवाज़े बंद करें", "चाबियाँ चाबी के डिब्बे में छोड़ दें"] },
