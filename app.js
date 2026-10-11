@@ -142,12 +142,52 @@ function blockHTML(b) {
   return "";
 }
 
+var MEDIA_T = {
+  fr: ["L'appartement en photos", "Visite en vidéo", "Fermer"],
+  en: ["The apartment in photos", "Video tour", "Close"],
+  es: ["El apartamento en fotos", "Visita en vídeo", "Cerrar"],
+  de: ["Die Wohnung in Fotos", "Video-Rundgang", "Schließen"],
+  pt: ["O apartamento em fotos", "Visita em vídeo", "Fechar"],
+  it: ["L'appartamento in foto", "Visita in video", "Chiudi"],
+  nl: ["Het appartement in foto's", "Videorondleiding", "Sluiten"],
+  zh: ["公寓照片", "视频参观", "关闭"],
+  ja: ["お部屋の写真", "動画で見学", "閉じる"],
+  ar: ["الشقة بالصور", "جولة بالفيديو", "إغلاق"],
+  ko: ["숙소 사진", "영상으로 둘러보기", "닫기"],
+  hi: ["अपार्टमेंट की तस्वीरें", "वीडियो टूर", "बंद करें"]
+};
+var PHOTOS = ["media/photo1.jpg", "media/photo2.jpg", "media/photo3.jpg", "media/photo4.jpg", "media/photo5.jpg"];
+function mediaHTML() {
+  var t = MEDIA_T[lang] || MEDIA_T.en;
+  var imgs = PHOTOS.map(function (p, i) {
+    return '<button type="button" class="ph" data-ph="' + i + '" aria-label="' + esc(t[0]) + ' ' + (i + 1) + '"><img src="' + p + '" alt="" loading="lazy" width="825" height="1100"></button>';
+  }).join("");
+  return '<section class="media"><h3>' + esc(t[0]) + '</h3><div class="gallery">' + imgs + '</div></section>' +
+    '<section class="media"><h3>' + esc(t[1]) + '</h3><video class="tour" controls playsinline preload="none" poster="media/visite.jpg"><source src="media/visite.mp4" type="video/mp4"></video></section>';
+}
+function openPhoto(i) {
+  var t = MEDIA_T[lang] || MEDIA_T.en;
+  var box = document.createElement("div");
+  box.className = "lightbox";
+  box.setAttribute("role", "dialog");
+  box.innerHTML = '<button type="button" class="lb-x" aria-label="' + esc(t[2]) + '">×</button><img src="' + PHOTOS[i] + '" alt="">';
+  box.addEventListener("click", function () { box.remove(); });
+  document.body.appendChild(box);
+}
+document.addEventListener("click", function (e) {
+  var b = e.target.closest ? e.target.closest(".ph") : null;
+  if (b) openPhoto(+b.getAttribute("data-ph"));
+});
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape") { var l = document.querySelector(".lightbox"); if (l) l.remove(); }
+});
+
 function homeHTML() {
   var U = GU();
   var tiles = G().sections.map(function (s, i) {
     return '<li><a class="tile' + (s.special ? " hot" : "") + '" href="#' + s.id + '"><span class="tn">' + esc(s.t) + '</span><span class="td">' + esc(s.d) + '</span><span class="ta" aria-hidden="true">→</span></a></li>';
   }).join("");
-  return '<h1>' + esc(U.welcome) + '</h1><p class="lede">' + esc(U.welcomeLede) + '</p><ul class="tiles">' + tiles + '</ul>' +
+  return '<h1>' + esc(U.welcome) + '</h1><p class="lede">' + esc(U.welcomeLede) + '</p><ul class="tiles">' + tiles + '</ul>' + mediaHTML() +
     '<section class="hostbox"><h3>' + esc(U.hostTitle) + '</h3><p>' + esc(U.hostBody) + '<a href="https://www.instagram.com/' + CONTACT.instagram + '" target="_blank" rel="noopener">@' + CONTACT.instagram + '</a></p><p>' + esc(U.hostBody2) + '</p>' +
     '<p><strong>' + esc(U.reachUs) + '</strong> ' + esc(U.phone) + ' : <span class="sel">' + CONTACT.phone + '</span> · ' + esc(U.email) + ' : <span class="sel">' + CONTACT.email + '</span></p></section>';
 }

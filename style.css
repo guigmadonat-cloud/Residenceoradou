@@ -129,3 +129,16 @@ footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line);
 footer strong { color: var(--ink); font-weight: 600; }
 
 .prose ul.cards { padding-left: 0; max-width: none; list-style: none; gap: 12px; }
+
+.brand { grid-auto-flow: column; align-items: center; gap: 10px; }
+.brand-logo { width: 44px; height: 44px; border-radius: 50%; flex: none; }
+.brand-t { display: grid; min-width: 0; }
+.media { margin: 26px 0 8px; }
+.media h3 { font-family: var(--font-display); font-size: 1.35rem; margin: 0 0 10px; }
+.gallery { display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; -webkit-overflow-scrolling: touch; }
+.ph { flex: 0 0 62%; max-width: 300px; scroll-snap-align: start; border: 0; padding: 0; background: none; border-radius: 12px; overflow: hidden; cursor: zoom-in; }
+.ph img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; }
+.tour { width: 100%; max-width: 260px; height: auto; border-radius: 12px; background: #000; display: block; }
+.lightbox { position: fixed; inset: 0; z-index: 50; background: rgba(0, 0, 0, 0.9); display: grid; place-items: center; padding: 16px; }
+.lightbox img { max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 8px; }
+.lb-x { position: absolute; top: 10px; right: 14px; border: 0; background: none; color: #fff; font-size: 2.2rem; line-height: 1; cursor: pointer; }
