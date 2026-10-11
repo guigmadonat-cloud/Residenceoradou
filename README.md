@@ -4,4 +4,4 @@ Fichiers : index.html, style.css, app.js, content.js (guide FR/EN/ES), activitie
 
 Mise en ligne (GitHub Pages) : déposer tous les fichiers à la racine du dépôt, puis Settings > Pages > Source : "Deploy from a branch", branche main, dossier /(root).
 
-Les codes d'accès et le mot de passe Wi-Fi ne sont volontairement pas publiés ici.
+Les codes d’accès et les informations Wi-Fi ne sont volontairement pas publiés ici.

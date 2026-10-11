@@ -1,5 +1,5 @@
 /* Site d'accueil Résidence Oradou. Données : content.js (guide), activities-data.js (fiches de sorties), events.js (événements du jour). */
-var SITE_LANGS = ["fr", "en", "es"];
+var SITE_LANGS = ["fr", "en", "es", "de", "pt", "it"];
 var KEY = "oradou-lang", FKEY = "oradou-filter";
 var lang = "fr", filter = "all";
 var today = new Date();

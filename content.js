@@ -4,17 +4,17 @@ var CONTACT = { phone: "+33 7 55 00 23 55", phoneRaw: "0033755002355", email: "l
 /* Lieux à proximité. d = distance indiquée dans le livret. Les prix sont ceux du livret. */
 var PLACES = {
   shops: [
-    { n: "Le Jardin du Val", addr: "25 Rue des Grives, 95100 Argenteuil", d: "300 m", t: { fr: "Supermarché apprécié pour ses produits frais, sa boucherie et ses fruits et légumes.", en: "Supermarket known for fresh produce, its butcher and fruit and vegetables.", es: "Supermercado apreciado por sus productos frescos, su carnicería y sus frutas y verduras." } },
-    { n: "Lidl", addr: "Secteur du Val Notre-Dame, 78500 Sartrouville", d: "300 m", t: { fr: "Idéal pour les courses du quotidien.", en: "Handy for everyday shopping.", es: "Ideal para la compra diaria." } },
-    { n: "Aldi", addr: "60/70 Rue Jean-Pierre Timbaud, 78500 Sartrouville", d: "300 m", t: { fr: "Supermarché discount avec produits frais et boulangerie.", en: "Discount supermarket with fresh produce and a bakery.", es: "Supermercado de descuento con productos frescos y panadería." } },
-    { n: "Carrefour Sartrouville", addr: "Avenue Robert Schuman, 78500 Sartrouville", d: "300 m", t: { fr: "Grand hypermarché avec galerie commerciale et station-service.", en: "Large hypermarket with a shopping arcade and a petrol station.", es: "Gran hipermercado con galería comercial y gasolinera." } }
+    { n: "Le Jardin du Val", addr: "25 Rue des Grives, 95100 Argenteuil", d: "300 m", t: { fr: "Supermarché apprécié pour ses produits frais, sa boucherie et ses fruits et légumes.", en: "Supermarket known for fresh produce, its butcher and fruit and vegetables.", es: "Supermercado apreciado por sus productos frescos, su carnicería y sus frutas y verduras.", de: "Supermarkt, geschätzt für frische Produkte, Metzgerei sowie Obst und Gemüse.", pt: "Supermercado apreciado pelos produtos frescos, talho e frutas e legumes.", it: "Supermercato apprezzato per i prodotti freschi, la macelleria e frutta e verdura." } },
+    { n: "Lidl", addr: "Secteur du Val Notre-Dame, 78500 Sartrouville", d: "300 m", t: { fr: "Idéal pour les courses du quotidien.", en: "Handy for everyday shopping.", es: "Ideal para la compra diaria.", de: "Praktisch für den täglichen Einkauf.", pt: "Prático para as compras do dia a dia.", it: "Comodo per la spesa di ogni giorno." } },
+    { n: "Aldi", addr: "60/70 Rue Jean-Pierre Timbaud, 78500 Sartrouville", d: "300 m", t: { fr: "Supermarché discount avec produits frais et boulangerie.", en: "Discount supermarket with fresh produce and a bakery.", es: "Supermercado de descuento con productos frescos y panadería.", de: "Discounter mit frischen Produkten und Bäckerei.", pt: "Supermercado de desconto com produtos frescos e padaria.", it: "Discount con prodotti freschi e panetteria." } },
+    { n: "Carrefour Sartrouville", addr: "Avenue Robert Schuman, 78500 Sartrouville", d: "300 m", t: { fr: "Grand hypermarché avec galerie commerciale et station-service.", en: "Large hypermarket with a shopping arcade and a petrol station.", es: "Gran hipermercado con galería comercial y gasolinera.", de: "Großer Hypermarkt mit Einkaufspassage und Tankstelle.", pt: "Grande hipermercado com galeria comercial e posto de combustível.", it: "Grande ipermercato con galleria commerciale e stazione di servizio." } }
   ],
   restaurants: [
-    { n: "Luci", addr: "152 Route de Pontoise, 95100 Argenteuil", d: "300 m", p: "30–70 €", t: { fr: "Cuisine italienne raffinée.", en: "Refined Italian cooking.", es: "Cocina italiana refinada." } },
-    { n: "California Sushi", addr: "262 Avenue Jean Jaurès, 95100 Argenteuil", d: "300 m", p: "15–35 €", t: { fr: "Restaurant japonais et sushis.", en: "Japanese restaurant and sushi.", es: "Restaurante japonés y sushi." } },
-    { n: "Anatolie", addr: "61 Route de Pontoise, 95100 Argenteuil", d: "300 m", p: "15–35 €", t: { fr: "Spécialités turques et grillades.", en: "Turkish specialities and grills.", es: "Especialidades turcas y parrilladas." } },
-    { n: "Babamour", addr: "28 Boulevard des Martyrs de Châteaubriant, 95100 Argenteuil", d: "300 m", p: "15–35 €", t: { fr: "Restaurant convivial : burgers gourmets et plats maison.", en: "Friendly restaurant with gourmet burgers and home cooking.", es: "Restaurante acogedor con hamburguesas gourmet y platos caseros." } },
-    { n: "Medley Restaurant", addr: "72 Route de Pontoise, 95100 Argenteuil", d: "300 m", p: "30–40 €", t: { fr: "Cuisine moderne et cadre élégant.", en: "Modern cooking in an elegant setting.", es: "Cocina moderna en un entorno elegante." } }
+    { n: "Luci", addr: "152 Route de Pontoise, 95100 Argenteuil", d: "300 m", p: "30–70 €", t: { fr: "Cuisine italienne raffinée.", en: "Refined Italian cooking.", es: "Cocina italiana refinada.", de: "Gehobene italienische Küche.", pt: "Cozinha italiana requintada.", it: "Cucina italiana raffinata." } },
+    { n: "California Sushi", addr: "262 Avenue Jean Jaurès, 95100 Argenteuil", d: "300 m", p: "15–35 €", t: { fr: "Restaurant japonais et sushis.", en: "Japanese restaurant and sushi.", es: "Restaurante japonés y sushi.", de: "Japanisches Restaurant und Sushi.", pt: "Restaurante japonês e sushi.", it: "Ristorante giapponese e sushi." } },
+    { n: "Anatolie", addr: "61 Route de Pontoise, 95100 Argenteuil", d: "300 m", p: "15–35 €", t: { fr: "Spécialités turques et grillades.", en: "Turkish specialities and grills.", es: "Especialidades turcas y parrilladas.", de: "Türkische Spezialitäten und Grillgerichte.", pt: "Especialidades turcas e grelhados.", it: "Specialità turche e grigliate." } },
+    { n: "Babamour", addr: "28 Boulevard des Martyrs de Châteaubriant, 95100 Argenteuil", d: "300 m", p: "15–35 €", t: { fr: "Restaurant convivial : burgers gourmets et plats maison.", en: "Friendly restaurant with gourmet burgers and home cooking.", es: "Restaurante acogedor con hamburguesas gourmet y platos caseros.", de: "Gemütliches Restaurant mit Gourmet-Burgern und Hausmannskost.", pt: "Restaurante acolhedor com hambúrgueres gourmet e pratos caseiros.", it: "Locale accogliente con hamburger gourmet e piatti casalinghi." } },
+    { n: "Medley Restaurant", addr: "72 Route de Pontoise, 95100 Argenteuil", d: "300 m", p: "30–40 €", t: { fr: "Cuisine moderne et cadre élégant.", en: "Modern cooking in an elegant setting.", es: "Cocina moderna en un entorno elegante.", de: "Moderne Küche in elegantem Ambiente.", pt: "Cozinha moderna num ambiente elegante.", it: "Cucina moderna in un ambiente elegante." } }
   ],
   fastfood: [
     { n: "McDonald's", addr: "Avenue Maurice Berteaux, 78500 Sartrouville" },
@@ -34,7 +34,7 @@ var GUIDE = {
       menu: "Menu", back: "Retour au menu", host: "Votre hôte", callUs: "Nous contacter",
       route: "Itinéraire", away: "À", distance: "Distance", price: "Tarif par personne",
       note: "Informations relevées dans le livret d'accueil de la résidence.",
-      codesTitle: "Codes d'accès", codesBody: "Les codes (portes, boîte à clés, ascenseur) et le mot de passe Wi-Fi vous sont envoyés dans votre message Airbnb avant votre arrivée. Ils ne sont pas affichés ici pour la sécurité de la résidence.",
+      codesTitle: "Codes d'accès", codesBody: "Les codes (portes, boîte à clés, ascenseur) vous sont envoyés dans votre message Airbnb avant votre arrivée. Ils ne sont pas affichés ici pour la sécurité de la résidence.",
       hostTitle: "Votre hôte", hostBody: "Je suis l'hôte de la résidence Oradou et un grand amateur de cuisine. Je vous invite à visiter ma page Instagram : ",
       hostBody2: "J'adore recevoir et je fais au mieux pour que votre séjour soit le plus agréable possible.",
       reachUs: "Besoin de nous joindre ?", phone: "Téléphone", email: "E-mail",
@@ -52,8 +52,7 @@ var GUIDE = {
         { k: "list", items: ["Éteignez les lumières", "Attachez les poubelles", "Faites votre vaisselle", "Laissez les serviettes au sol", "Fermez les fenêtres et les portes", "Laissez les clés dans la boîte à clés"] },
         { k: "route", dest: "27 route de Pontoise, 95100 Argenteuil", label: "Boîte à clés et parking" }
       ] },
-      { id: "stay", t: "Pendant votre séjour", d: "Wi-Fi, services, équipements", blocks: [
-        { k: "facts", rows: [["Wi-Fi", "Réseau : Bbox-5033B92C"], ["Mot de passe", "Dans votre message Airbnb"]] },
+      { id: "stay", t: "Pendant votre séjour", d: "Services, équipements", blocks: [
         { k: "h", t: "À savoir" },
         { k: "list", items: [
           "Des bouteilles d'eau et du panaché sont disponibles dans le réfrigérateur.",
@@ -65,7 +64,7 @@ var GUIDE = {
           "Une télévision est installée dans le salon et dans les chambres (Prime Video et Netflix)."
         ] },
         { k: "h", t: "L'appartement" },
-        { k: "p", t: "Un appartement cocooning dans un cadre serein : 2 chambres spacieuses, 1 salle de bains moderne et 1 toilette séparée. Terrasse, Wi-Fi, parking, lave-vaisselle, lave-linge et sèche-linge." }
+        { k: "p", t: "Un appartement cocooning dans un cadre serein : 2 chambres spacieuses, 1 salle de bains moderne et 1 toilette séparée. Terrasse, parking, lave-vaisselle, lave-linge et sèche-linge." }
       ] },
       { id: "house", t: "Cuisine et linge", d: "Four, micro-ondes, machine à laver", blocks: [
         { k: "h", t: "La cuisine" },
@@ -124,7 +123,7 @@ var GUIDE = {
       menu: "Menu", back: "Back to menu", host: "Your host", callUs: "Contact us",
       route: "Directions", away: "At", distance: "Distance", price: "Price per person",
       note: "Information taken from the residence's welcome booklet.",
-      codesTitle: "Access codes", codesBody: "The door codes, key box code, lift code and the Wi-Fi password are sent in your Airbnb message before you arrive. They are not shown here, to keep the residence secure.",
+      codesTitle: "Access codes", codesBody: "The door codes, key box code, lift code are sent in your Airbnb message before you arrive. They are not shown here, to keep the residence secure.",
       hostTitle: "Your host", hostBody: "I am the host of the Oradou residence and a keen cook. Come and visit my Instagram page: ",
       hostBody2: "I love having guests and do my best to make your stay as pleasant as possible.",
       reachUs: "Need to reach us?", phone: "Phone", email: "Email",
@@ -142,8 +141,7 @@ var GUIDE = {
         { k: "list", items: ["Switch off the lights", "Tie up the rubbish bags", "Do your dishes", "Leave the towels on the floor", "Close the windows and doors", "Leave the keys in the key box"] },
         { k: "route", dest: "27 route de Pontoise, 95100 Argenteuil", label: "Key box and car park" }
       ] },
-      { id: "stay", t: "During your stay", d: "Wi-Fi, services, equipment", blocks: [
-        { k: "facts", rows: [["Wi-Fi", "Network: Bbox-5033B92C"], ["Password", "In your Airbnb message"]] },
+      { id: "stay", t: "During your stay", d: "Services, equipment", blocks: [
         { k: "h", t: "Good to know" },
         { k: "list", items: [
           "Water bottles and panaché (shandy) are in the fridge.",
@@ -155,7 +153,7 @@ var GUIDE = {
           "There is a TV in the living room and in the bedrooms (Prime Video and Netflix)."
         ] },
         { k: "h", t: "The apartment" },
-        { k: "p", t: "A cosy apartment in a peaceful setting: 2 spacious bedrooms, 1 modern bathroom and a separate toilet. Terrace, Wi-Fi, parking, dishwasher, washing machine and dryer." }
+        { k: "p", t: "A cosy apartment in a peaceful setting: 2 spacious bedrooms, 1 modern bathroom and a separate toilet. Terrace, parking, dishwasher, washing machine and dryer." }
       ] },
       { id: "house", t: "Kitchen and linen", d: "Oven, microwave, washing machine", blocks: [
         { k: "h", t: "The kitchen" },
@@ -214,7 +212,7 @@ var GUIDE = {
       menu: "Menú", back: "Volver al menú", host: "Su anfitrión", callUs: "Contacto",
       route: "Cómo llegar", away: "En", distance: "Distancia", price: "Precio por persona",
       note: "Información tomada del libro de bienvenida de la residencia.",
-      codesTitle: "Códigos de acceso", codesBody: "Los códigos de las puertas, de la caja de llaves y del ascensor, y la contraseña del wifi, se envían en su mensaje de Airbnb antes de su llegada. No se muestran aquí por la seguridad de la residencia.",
+      codesTitle: "Códigos de acceso", codesBody: "Los códigos de las puertas, de la caja de llaves y del ascensor se envían en su mensaje de Airbnb antes de su llegada. No se muestran aquí por la seguridad de la residencia.",
       hostTitle: "Su anfitrión", hostBody: "Soy el anfitrión de la residencia Oradou y un gran aficionado a la cocina. Le invito a visitar mi página de Instagram: ",
       hostBody2: "Me encanta recibir y hago todo lo posible para que su estancia sea lo más agradable posible.",
       reachUs: "¿Necesita contactarnos?", phone: "Teléfono", email: "Correo electrónico",
@@ -232,8 +230,7 @@ var GUIDE = {
         { k: "list", items: ["Apague las luces", "Ate las bolsas de basura", "Lave los platos", "Deje las toallas en el suelo", "Cierre ventanas y puertas", "Deje las llaves en la caja de llaves"] },
         { k: "route", dest: "27 route de Pontoise, 95100 Argenteuil", label: "Caja de llaves y aparcamiento" }
       ] },
-      { id: "stay", t: "Durante su estancia", d: "Wifi, servicios, equipamiento", blocks: [
-        { k: "facts", rows: [["Wifi", "Red: Bbox-5033B92C"], ["Contraseña", "En su mensaje de Airbnb"]] },
+      { id: "stay", t: "Durante su estancia", d: "Servicios, equipamiento", blocks: [
         { k: "h", t: "Conviene saber" },
         { k: "list", items: [
           "En el frigorífico hay botellas de agua y panaché.",
@@ -245,7 +242,7 @@ var GUIDE = {
           "Hay televisión en el salón y en los dormitorios (Prime Video y Netflix)."
         ] },
         { k: "h", t: "El apartamento" },
-        { k: "p", t: "Un apartamento acogedor en un entorno sereno: 2 dormitorios amplios, 1 cuarto de baño moderno y un aseo independiente. Terraza, wifi, aparcamiento, lavavajillas, lavadora y secadora." }
+        { k: "p", t: "Un apartamento acogedor en un entorno sereno: 2 dormitorios amplios, 1 cuarto de baño moderno y un aseo independiente. Terraza, aparcamiento, lavavajillas, lavadora y secadora." }
       ] },
       { id: "house", t: "Cocina y ropa", d: "Horno, microondas, lavadora", blocks: [
         { k: "h", t: "La cocina" },
