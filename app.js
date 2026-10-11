@@ -1,5 +1,5 @@
 /* Site d'accueil Résidence Oradou. Données : content.js (guide), activities-data.js (fiches de sorties), events.js (événements du jour). */
-var SITE_LANGS = ["fr", "en", "es", "de", "pt", "it"];
+var SITE_LANGS = LANGS.map(function (l) { return l.c; }).filter(function (c) { return GUIDE[c] && UI[c]; });
 var KEY = "oradou-lang", FKEY = "oradou-filter";
 var lang = "fr", filter = "all";
 var today = new Date();
@@ -163,6 +163,7 @@ function currentId() { return decodeURIComponent((location.hash || "").replace(/
 function render(keepScroll) {
   var U = GU();
   document.documentElement.lang = lang;
+  document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
   el("brandN").textContent = U.brand;
   el("brandS").textContent = U.sub;
   el("langLabel").textContent = U.langLabel;
