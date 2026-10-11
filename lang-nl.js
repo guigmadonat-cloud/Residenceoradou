@@ -54,6 +54,7 @@ GUIDE.nl = {
       { k: "p", t: "Het adres van de woning en de toegangsinstructies ontvangt u in uw Airbnb-bericht. Ga naar het opgegeven adres en voer de code in die u is doorgegeven." },
       { k: "route", dest: "6-8 rue de Lutèce, 95100 Argenteuil", label: "Appartement" },
       { k: "route", dest: "27 route de Pontoise, 95100 Argenteuil", label: "Sleutelkluis en parkeergarage" },
+      { k: "video", url: "https://lesresidencesoradou.my.canva.site/lesresidencesoradou-video-accueil", label: "Welkomstvideo: stap voor stap de weg vinden" },
       { k: "codes" },
       { k: "h", t: "Voor uw vertrek" },
       { k: "list", items: ["Doe de lichten uit", "Knoop de vuilniszakken dicht", "Doe de afwas", "Laat de handdoeken op de vloer liggen", "Sluit de ramen en deuren", "Leg de sleutels terug in de sleutelkluis"] },

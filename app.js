@@ -131,6 +131,7 @@ function blockHTML(b) {
     case "list": return '<ul>' + b.items.map(function (i) { return '<li>' + esc(i) + '</li>'; }).join("") + '</ul>';
     case "facts": return '<dl class="facts">' + b.rows.map(function (r) { return '<div><dt>' + esc(r[0]) + '</dt><dd>' + esc(r[1]) + '</dd></div>'; }).join("") + '</dl>';
     case "codes": return '<div class="codes"><h4>' + esc(U.codesTitle) + '</h4><p>' + esc(U.codesBody) + '</p></div>';
+    case "video": return '<p><a class="btn" href="' + b.url + '" target="_blank" rel="noopener">▶ ' + esc(b.label) + '</a></p>';
     case "route": return '<p><a class="btn primary" href="' + mapsUrl(b.dest) + '" target="_blank" rel="noopener">' + esc(U.route) + ' · ' + esc(b.label) + '</a></p>';
     case "places": return placesHTML(b);
     case "contact3": return '<ul class="cards">' + b.items.map(function (i) {
