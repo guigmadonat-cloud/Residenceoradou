@@ -51,13 +51,10 @@ GUIDE.nl = {
     { id: "arrival", t: "Aankomst en vertrek", d: "Tijden, sleutels, parkeren", blocks: [
       { k: "facts", rows: [["Aankomst", "Vanaf 16.00 uur"], ["Vertrek", "Voor 12.00 uur"]] },
       { k: "h", t: "Naar binnen" },
-      { k: "p", t: "De hoofdingang voor voetgangers ligt aan de rue de Lutèce 6-8. Haal eerst de sleutels op aan de route de Pontoise 27." },
-      { k: "p", t: "De sleutelkluis en de parkeergarage bevinden zich aan de route de Pontoise 27, 95100 Argenteuil. De sleutelkluis hangt buiten de parkeergarage, aan uw linkerkant." },
-      { k: "p", t: "Uw parkeerplaats ligt in de kelder, niveau -2, plaats nr. 30. De lift bedient niveau -1 en -2." },
+      { k: "p", t: "Het adres van de woning en de toegangsinstructies ontvangt u in uw Airbnb-bericht. Ga naar het opgegeven adres en voer de code in die u is doorgegeven." },
       { k: "codes" },
       { k: "h", t: "Voor uw vertrek" },
       { k: "list", items: ["Doe de lichten uit", "Knoop de vuilniszakken dicht", "Doe de afwas", "Laat de handdoeken op de vloer liggen", "Sluit de ramen en deuren", "Leg de sleutels terug in de sleutelkluis"] },
-      { k: "route", dest: "27 route de Pontoise, 95100 Argenteuil", label: "Sleutelkluis en parkeergarage" }
     ] },
     { id: "stay", t: "Tijdens uw verblijf", d: "Diensten, voorzieningen", blocks: [
       { k: "h", t: "Goed om te weten" },
@@ -67,7 +64,6 @@ GUIDE.nl = {
         "Handdoeken zijn aanwezig.",
         "Overal in het appartement vindt u stopcontacten voor uw elektronische apparaten.",
         "De prullenbak is automatisch: houd gewoon uw hand erboven om hem te openen.",
-        "Een parkeerplaats is beschikbaar in de kelder, niveau -2, plaats nr. 30.",
         "In de woonkamer en in de slaapkamers staat een televisie (Prime Video en Netflix)."
       ] },
       { k: "h", t: "Het appartement" },
@@ -115,7 +111,7 @@ GUIDE.nl = {
       ] }
     ] },
     { id: "leave", t: "Voor uw vertrek", d: "Uitchecken en beoordeling", blocks: [
-      { k: "list", items: ["Knoop de vuilniszakken dicht", "Ruim de vaatwasser uit", "Controleer de kasten en lades", "Sluit de ramen en de deur", "Leg de sleutels in de sleutelkluis (route de Pontoise 27)"] },
+      { k: "list", items: ["Knoop de vuilniszakken dicht", "Ruim de vaatwasser uit", "Controleer de kasten en lades", "Sluit de ramen en de deur", "Leg de sleutels in de sleutelkluis"] },
       { k: "h", t: "Uw beoordeling" },
       { k: "p", t: "Uw tevredenheid is ook de onze! Als u van uw verblijf hebt genoten, laat dan gerust een beoordeling achter." },
       { k: "p", t: "Bedankt dat u voor onze accommodatie hebt gekozen. Wij hopen u binnenkort weer te mogen verwelkomen en wensen u een goede thuisreis." }

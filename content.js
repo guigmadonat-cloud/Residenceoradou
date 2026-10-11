@@ -44,13 +44,10 @@ var GUIDE = {
       { id: "arrival", t: "Arrivée et départ", d: "Horaires, clés, parking", blocks: [
         { k: "facts", rows: [["Arrivée", "À partir de 16h"], ["Départ", "Avant 12h"]] },
         { k: "h", t: "Pour entrer" },
-        { k: "p", t: "La porte principale piétonne se trouve au 6-8 rue de Lutèce. Il faut récupérer les clés avant, en passant par le 27 route de Pontoise." },
-        { k: "p", t: "La boîte à clés et le parking se trouvent au 27 route de Pontoise, 95100 Argenteuil. La boîte à clés est à l'extérieur du parking, sur votre gauche." },
-        { k: "p", t: "Votre place de parking est au sous-sol, niveau -2, place n° 30. L'ascenseur dessert les niveaux -1 et -2." },
+        { k: "p", t: "L'adresse du logement et les instructions d'accès vous sont communiquées dans votre message Airbnb. Rendez-vous à l'adresse indiquée et entrez le code qui vous a été communiqué." },
         { k: "codes" },
         { k: "h", t: "Avant de partir" },
         { k: "list", items: ["Éteignez les lumières", "Attachez les poubelles", "Faites votre vaisselle", "Laissez les serviettes au sol", "Fermez les fenêtres et les portes", "Laissez les clés dans la boîte à clés"] },
-        { k: "route", dest: "27 route de Pontoise, 95100 Argenteuil", label: "Boîte à clés et parking" }
       ] },
       { id: "stay", t: "Pendant votre séjour", d: "Services, équipements", blocks: [
         { k: "h", t: "À savoir" },
@@ -60,7 +57,6 @@ var GUIDE = {
           "Des serviettes sont à votre disposition.",
           "Vous trouverez des prises un peu partout dans l'appartement pour vos appareils électroniques.",
           "La poubelle est automatique : passez simplement la main pour l'ouvrir.",
-          "Un parking est à votre disposition au sous-sol, niveau -2, place n° 30.",
           "Une télévision est installée dans le salon et dans les chambres (Prime Video et Netflix)."
         ] },
         { k: "h", t: "L'appartement" },
@@ -108,7 +104,7 @@ var GUIDE = {
         ] }
       ] },
       { id: "leave", t: "Avant de partir", d: "Départ et avis", blocks: [
-        { k: "list", items: ["Attachez les poubelles", "Videz le lave-vaisselle", "Vérifiez les placards et les tiroirs", "Fermez les fenêtres et la porte", "Déposez les clés dans la boîte à clés (27 route de Pontoise)"] },
+        { k: "list", items: ["Attachez les poubelles", "Videz le lave-vaisselle", "Vérifiez les placards et les tiroirs", "Fermez les fenêtres et la porte", "Déposez les clés dans la boîte à clés"] },
         { k: "h", t: "Votre avis" },
         { k: "p", t: "Votre satisfaction est notre satisfaction ! Si vous avez apprécié votre séjour, n'hésitez pas à nous laisser un avis." },
         { k: "p", t: "Merci d'avoir choisi notre logement. Nous espérons vous accueillir à nouveau très bientôt et vous souhaitons un bon retour chez vous." }
@@ -133,13 +129,10 @@ var GUIDE = {
       { id: "arrival", t: "Arrival and departure", d: "Times, keys, parking", blocks: [
         { k: "facts", rows: [["Check-in", "From 4 pm"], ["Check-out", "Before 12 noon"]] },
         { k: "h", t: "Getting in" },
-        { k: "p", t: "The main pedestrian door is at 6-8 rue de Lutèce. Collect the keys first, from 27 route de Pontoise." },
-        { k: "p", t: "The key box and the car park are at 27 route de Pontoise, 95100 Argenteuil. The key box is outside the car park, on your left." },
-        { k: "p", t: "Your parking space is in the basement, level -2, space no. 30. The lift serves levels -1 and -2." },
+        { k: "p", t: "The address of the apartment and the access instructions are sent in your Airbnb message. Go to the address you were given and enter the code that was sent to you." },
         { k: "codes" },
         { k: "h", t: "Before you leave" },
         { k: "list", items: ["Switch off the lights", "Tie up the rubbish bags", "Do your dishes", "Leave the towels on the floor", "Close the windows and doors", "Leave the keys in the key box"] },
-        { k: "route", dest: "27 route de Pontoise, 95100 Argenteuil", label: "Key box and car park" }
       ] },
       { id: "stay", t: "During your stay", d: "Services, equipment", blocks: [
         { k: "h", t: "Good to know" },
@@ -149,7 +142,6 @@ var GUIDE = {
           "Towels are provided.",
           "There are sockets throughout the apartment for your electronic devices.",
           "The bin is automatic: just wave your hand to open it.",
-          "A parking space is available in the basement, level -2, space no. 30.",
           "There is a TV in the living room and in the bedrooms (Prime Video and Netflix)."
         ] },
         { k: "h", t: "The apartment" },
@@ -197,7 +189,7 @@ var GUIDE = {
         ] }
       ] },
       { id: "leave", t: "Before you leave", d: "Check-out and review", blocks: [
-        { k: "list", items: ["Tie up the rubbish bags", "Empty the dishwasher", "Check the cupboards and drawers", "Close the windows and the door", "Drop the keys in the key box (27 route de Pontoise)"] },
+        { k: "list", items: ["Tie up the rubbish bags", "Empty the dishwasher", "Check the cupboards and drawers", "Close the windows and the door", "Drop the keys in the key box"] },
         { k: "h", t: "Your review" },
         { k: "p", t: "Your satisfaction is ours! If you enjoyed your stay, please leave us a review." },
         { k: "p", t: "Thank you for choosing our home. We hope to welcome you again very soon, and wish you a safe journey home." }
@@ -222,13 +214,10 @@ var GUIDE = {
       { id: "arrival", t: "Llegada y salida", d: "Horarios, llaves, aparcamiento", blocks: [
         { k: "facts", rows: [["Llegada", "A partir de las 16:00"], ["Salida", "Antes de las 12:00"]] },
         { k: "h", t: "Para entrar" },
-        { k: "p", t: "La puerta principal peatonal está en el 6-8 de la rue de Lutèce. Hay que recoger antes las llaves, pasando por el 27 route de Pontoise." },
-        { k: "p", t: "La caja de llaves y el aparcamiento están en el 27 route de Pontoise, 95100 Argenteuil. La caja de llaves está fuera del aparcamiento, a su izquierda." },
-        { k: "p", t: "Su plaza de aparcamiento está en el sótano, nivel -2, plaza n.º 30. El ascensor llega a los niveles -1 y -2." },
+        { k: "p", t: "La dirección del alojamiento y las instrucciones de acceso se envían en su mensaje de Airbnb. Diríjase a la dirección indicada e introduzca el código que se le ha comunicado." },
         { k: "codes" },
         { k: "h", t: "Antes de salir" },
         { k: "list", items: ["Apague las luces", "Ate las bolsas de basura", "Lave los platos", "Deje las toallas en el suelo", "Cierre ventanas y puertas", "Deje las llaves en la caja de llaves"] },
-        { k: "route", dest: "27 route de Pontoise, 95100 Argenteuil", label: "Caja de llaves y aparcamiento" }
       ] },
       { id: "stay", t: "Durante su estancia", d: "Servicios, equipamiento", blocks: [
         { k: "h", t: "Conviene saber" },
@@ -238,7 +227,6 @@ var GUIDE = {
           "Dispone de toallas.",
           "Hay enchufes por todo el apartamento para sus aparatos electrónicos.",
           "El cubo de basura es automático: basta con pasar la mano para abrirlo.",
-          "Dispone de aparcamiento en el sótano, nivel -2, plaza n.º 30.",
           "Hay televisión en el salón y en los dormitorios (Prime Video y Netflix)."
         ] },
         { k: "h", t: "El apartamento" },
@@ -286,7 +274,7 @@ var GUIDE = {
         ] }
       ] },
       { id: "leave", t: "Antes de salir", d: "Salida y opinión", blocks: [
-        { k: "list", items: ["Ate las bolsas de basura", "Vacíe el lavavajillas", "Revise armarios y cajones", "Cierre las ventanas y la puerta", "Deje las llaves en la caja de llaves (27 route de Pontoise)"] },
+        { k: "list", items: ["Ate las bolsas de basura", "Vacíe el lavavajillas", "Revise armarios y cajones", "Cierre las ventanas y la puerta", "Deje las llaves en la caja de llaves"] },
         { k: "h", t: "Su opinión" },
         { k: "p", t: "¡Su satisfacción es la nuestra! Si ha disfrutado de su estancia, no dude en dejarnos una opinión." },
         { k: "p", t: "Gracias por elegir nuestro alojamiento. Esperamos volver a recibirle muy pronto y le deseamos un buen regreso a casa." }
