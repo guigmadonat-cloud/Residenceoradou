@@ -54,6 +54,7 @@ GUIDE.ja = {
       { k: "p", t: "住所と入室方法は、Airbnbのメッセージでお送りします。お知らせした住所へお越しいただき、お伝えしたコードを入力してください。" },
       { k: "route", dest: "6-8 rue de Lutèce, 95100 Argenteuil", label: "アパート" },
       { k: "route", dest: "27 route de Pontoise, 95100 Argenteuil", label: "キーボックスと駐車場" },
+      { k: "video", url: "https://canva.link/fe1tzseey39wb4p", label: "ウェルカム動画：手順に沿ってご案内" },
       { k: "codes" },
       { k: "h", t: "出発前に" },
       { k: "list", items: ["電気を消す", "ゴミ袋の口を縛る", "食器を洗う", "タオルを床に置く", "窓とドアを閉める", "鍵をキーボックスに戻す"] },
