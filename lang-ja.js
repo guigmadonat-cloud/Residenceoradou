@@ -52,7 +52,7 @@ GUIDE.ja = {
       { k: "facts", rows: [["チェックイン", "16時以降"], ["チェックアウト", "12時まで"]] },
       { k: "h", t: "入り方" },
       { k: "p", t: "住所と入室方法は、Airbnbのメッセージでお送りします。お知らせした住所へお越しいただき、お伝えしたコードを入力してください。" },
-      { k: "route", dest: "6-8 rue de Lutèce, Argenteuil", label: "アパート" },
+      { k: "route", dest: "6-8 rue de Lutèce, 95100 Argenteuil", label: "アパート" },
       { k: "route", dest: "27 route de Pontoise, 95100 Argenteuil", label: "キーボックスと駐車場" },
       { k: "codes" },
       { k: "h", t: "出発前に" },

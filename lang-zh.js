@@ -52,7 +52,7 @@ GUIDE.zh = {
       { k: "facts", rows: [["入住", "16:00 起"], ["退房", "12:00 前"]] },
       { k: "h", t: "如何进入" },
       { k: "p", t: "住所地址和入住指引会通过 Airbnb 消息发送给您。请前往消息中告知的地址，并输入已发送给您的密码。" },
-      { k: "route", dest: "6-8 rue de Lutèce, Argenteuil", label: "公寓" },
+      { k: "route", dest: "6-8 rue de Lutèce, 95100 Argenteuil", label: "公寓" },
       { k: "route", dest: "27 route de Pontoise, 95100 Argenteuil", label: "钥匙盒和停车场" },
       { k: "codes" },
       { k: "h", t: "离开之前" },
