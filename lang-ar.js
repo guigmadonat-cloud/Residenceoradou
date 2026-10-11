@@ -54,7 +54,6 @@ GUIDE.ar = {
       { k: "p", t: "يُرسَل عنوان السكن وتعليمات الدخول في رسالتكم على Airbnb. توجّهوا إلى العنوان المُرسَل إليكم وأدخلوا الرمز الذي تم إبلاغكم به." },
       { k: "route", dest: "6-8 rue de Lutèce, 95100 Argenteuil", label: "الشقة" },
       { k: "route", dest: "27 route de Pontoise, 95100 Argenteuil", label: "صندوق المفاتيح وموقف السيارات" },
-      { k: "video", url: "https://lesresidencesoradou.my.canva.site/lesresidencesoradou-video-accueil", label: "فيديو الترحيب: دليلكم خطوة بخطوة" },
       { k: "codes" },
       { k: "h", t: "قبل المغادرة" },
       { k: "list", items: ["أطفئوا الأضواء", "اربطوا أكياس القمامة", "اغسلوا الأطباق", "ضعوا المناشف على الأرض", "أغلقوا النوافذ والأبواب", "أعيدوا المفاتيح إلى صندوق المفاتيح"] },
