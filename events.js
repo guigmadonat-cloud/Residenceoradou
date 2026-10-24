@@ -1,5 +1,5 @@
 /* Mis à jour chaque jour. Ne modifier que UPDATED et EVENTS. */
-var UPDATED = "2026-10-23";
+var UPDATED = "2026-10-24";
 
 /* Événements : dates au format AAAA-MM-JJ. Un événement disparaît tout seul le lendemain de sa date de fin. */
 var EVENTS = [
@@ -9,5 +9,6 @@ var EVENTS = [
   { title: "François Morellet, traits d'esprit", kind: "exhibition", area: "paris", place: "Cité de l'architecture et du patrimoine", start: "2026-10-16", end: "2027-01-03", url: "https://parisjetaime.com/article/que-faire-a-paris-en-octobre-a1039" },
   { title: "Moderne Art Fair", kind: "fair", area: "paris", place: "Place de la Concorde", start: "2026-10-22", end: "2026-10-25", url: "https://parisjetaime.com/article/que-faire-a-paris-en-octobre-a1039" },
   { title: "Art Basel Paris", kind: "fair", area: "paris", place: "Grand Palais", start: "2026-10-23", end: "2026-10-25", url: "https://parisjetaime.com/article/que-faire-a-paris-en-octobre-a1039" },
-  { title: "Salon du Chocolat", kind: "fair", area: "paris", place: "Paris Expo Porte de Versailles", start: "2026-10-28", end: "2026-11-01", url: "https://parisjetaime.com/article/que-faire-a-paris-en-octobre-a1039" }
+  { title: "Salon du Chocolat", kind: "fair", area: "paris", place: "Paris Expo Porte de Versailles", start: "2026-10-28", end: "2026-11-01", url: "https://parisjetaime.com/article/que-faire-a-paris-en-octobre-a1039" },
+  { title: "Tokio Hotel", kind: "concert", area: "paris", place: "Adidas Arena", start: "2026-10-30", end: "2026-10-30", url: "https://parisjetaime.com/article/que-faire-a-paris-en-octobre-a1039" }
 ];
