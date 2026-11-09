@@ -1,5 +1,5 @@
 /* Mis à jour chaque jour. Ne modifier que UPDATED et EVENTS. */
-var UPDATED = "2026-11-08";
+var UPDATED = "2026-11-09";
 
 /* Événements : dates au format AAAA-MM-JJ. Un événement disparaît tout seul le lendemain de sa date de fin. */
 var EVENTS = [
